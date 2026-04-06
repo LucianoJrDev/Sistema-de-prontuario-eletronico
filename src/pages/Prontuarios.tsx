@@ -19,7 +19,7 @@ const records: MedicalRecord[] = [
   { id: 5, patient: "Lucia Ferreira", lastUpdate: "01/04/2026", entries: 3, conditions: ["Acompanhamento Pediátrico"], doctor: "Dra. Patrícia Nunes" },
 ];
 
-const [expandedId, setExpandedId] = [0, (_: number) => {}]; // placeholder
+
 
 export default function Prontuarios() {
   const [search, setSearch] = useState("");
